@@ -13,6 +13,7 @@ int linearSearch(int a [], int x)
      return -1;
     
 }
+
 int main()
 {
     int a[n],i,ele;

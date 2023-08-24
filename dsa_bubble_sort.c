@@ -8,8 +8,7 @@ void bubble_sort_ascending(int array[], int n)
         for (int j = 0; j < n -  1; j++) 
         {
             if (array[j] > array[j + 1]) 
-            {
-               
+            { 
                a = array[j];
                 array[j] = array[j + 1];
                 array[j + 1] = a;
