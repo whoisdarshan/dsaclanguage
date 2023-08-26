@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define n 10
+#define n 5
 
 int queue[n];
 int front = -1, rear = -1;
@@ -56,6 +56,11 @@ void delete()
             front = rear = -1;
         }
     }
+}
+
+insertfirst(int value)
+{
+
 }
 
 int main()
